@@ -21,6 +21,18 @@ switch ($_GET['page'])
         require 'templates/entretient.php';
         require 'models/entretient.php';
     break;
+
+    case "formulaireCollaborateur.php":
+        require 'templates/entretient.php';
+        require 'models/entretient.php';
+    break;
+
+    case "formulaireEntretient.php":
+        require 'templates/formulaireEntretient.php';
+        require 'models/formulaireEntretient.php';
+    break;
 }
+
+require 'templates/footer.php';
 
 ?>

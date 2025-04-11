@@ -4,8 +4,8 @@
         <link href="style/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body id="accueil">
-        <img src="Images/logo2.png">
-        <a href ="index.php?page=collaborateur.php">Collaborateurs</a>
-        <a href ="index.php?page=entretient.php">Entretient</a>
+        <img src="Image/logo2.png">
+        <a class="a" href ="index.php?page=collaborateur.php">Collaborateurs</a>
+        <a class="a" href ="index.php?page=entretient.php">Entretient</a>
     </body>
 </html>

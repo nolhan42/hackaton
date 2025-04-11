@@ -1,8 +1,12 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 img{
     margin: 7.5% 0 0 35%;
 }
 
-a{
+.a{
    background-color: #3288C7;
    padding: 15px;
    display: block;
@@ -14,7 +18,7 @@ a{
    text-align: center;
    color: white;
    font-size: 25px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
    text-decoration: none;
 }
 
@@ -22,6 +26,125 @@ a{
     background-color: #c1dcf0;
 }
 
-a:hover{
+.a:hover{
     cursor: pointer;
+}
+
+/*-------button-------*/
+#button_tab{
+    background-color: #60bbf0;
+    height: 80px;
+    margin: 0.5% 0 0.5% 1%;
+    width: 98%;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+#button_inside{
+    display: inline-block;
+    background-color: #fafafa;
+    height: 60px;
+    margin: 10px 0 0 2%;
+    width: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+
+#button_form_e{
+    margin-top: 10px;
+}
+
+/*------------------Tableau------------------*/
+table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+th{
+    text-align: center;
+    margin: 0.5% 0 0.5% 0;
+}
+
+td{
+    text-align: left;
+    background-color: grey;
+    padding: 1%;
+    margin: 0 0 0 1%;
+    border-radius: 5px;
+}
+
+/*-------logo-------*/
+#logo{
+   height: 120px; 
+   margin-left: 0;
+   margin-top: 0;
+}
+
+/*------------------form------------------*/
+#form_c{
+    position: absolute;
+    margin: 5% 5% 0 15%;
+    background-color: rgb(98, 151, 221);
+    width: 70%;
+    height: 765px;
+}
+
+#inputItem, #inputItem1, #inputItem2{
+    margin-left: 10%;
+}
+
+#creer{
+    margin: 5px;
+}
+
+input, .liste, #form, #form_c, #form_title{
+    border-radius: 10px;
+}
+
+input{
+    height: 50px;
+}
+
+/*------------------textarea------------------*/
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1 1 42%; /* permet 2 colonnes */
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    height: 100px;
+}
+
+/*------------------champs/text------------------*/
+#date{
+    margin-left: 6%;
+}
+
+#nom{
+    margin-left: 6%;
+}
+
+#objectif{
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+/*-------Footer-------*/
+.footer{
+    background-color: #c1dcf0;
+    text-align: center;
+    position: static;
 }

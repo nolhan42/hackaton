@@ -1,10 +1,10 @@
 <?php
     try{
-        $bdd = new PDO('mysql: localhost; dbname=hackaton',
-        'root',
-        '');
-    }
-    catch(Exeption $e){
-        echo "erreur avec la bdd : ".$e;
+        $bdd = new PDO ('mysql:host=localhost;dbname=hackaton',
+                        'root',
+                        ''
+                        );
+    }catch (Exception $e){
+        echo "Erreur avec la base de donnée :" . $e;
     }
 ?>
