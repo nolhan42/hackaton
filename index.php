@@ -23,8 +23,8 @@ switch ($_GET['page'])
     break;
 
     case "formulaireCollaborateur.php":
-        require 'templates/entretient.php';
-        require 'models/entretient.php';
+        require 'templates/formulaireCollaborateur.php';
+        require 'models/formualireCollaborateur.php';
     break;
 
     case "formulaireEntretient.php":

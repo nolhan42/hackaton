@@ -133,13 +133,48 @@ textarea {
     margin-left: 6%;
 }
 
-#nom{
+#duree{
     margin-left: 6%;
 }
 
 #objectif{
     margin-top: 50px;
     margin-left: 0;
+}
+
+/*------------------colaborateur------------------*/
+#logo_collaborateur{
+    width: 15vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+#button_collaborateur_entretient {
+    float: right;
+    width: 150px;
+}
+#carte_collaborateurs {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux cartes de passer à une nouvelle ligne */
+    justify-content: space-between; /* Espacement uniforme */
+    gap: 15px; /* Espacement entre les cartes */
+}
+ 
+.carte {
+    width: calc(20% - 15px); /* Chaque carte occupe 1/4 de la ligne */
+    background-color: #3288C7;
+    height: 20vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+#pfp{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+#formCollaborateur{
+    bottom: 0;
 }
 
 /*-------Footer-------*/

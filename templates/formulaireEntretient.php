@@ -15,7 +15,7 @@
                     <div class="form-row">
                         <label id="date">Date:</label>
                         <input type="date" value="" name="date"/>
-                        <label id="nom">Durée:</label>
+                        <label id="duree">Durée:</label>
                         <input type="text" value="" name="duree"/>
                         <label>personneConvoque:</label>
                             <select name="personneConvoque" required>
